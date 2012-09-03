@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6B140C15F4C44E00F65EDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B140B15F4C44E00F65EDE /* Foundation.framework */; };
+		5F6B141115F4C44E00F65EDE /* CustomKeyboard.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F6B141015F4C44E00F65EDE /* CustomKeyboard.h */; };
+		5F6B141315F4C44E00F65EDE /* CustomKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B141215F4C44E00F65EDE /* CustomKeyboard.m */; };
+		5F6B141B15F4C44E00F65EDE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B141A15F4C44E00F65EDE /* SenTestingKit.framework */; };
+		5F6B141D15F4C44E00F65EDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B141C15F4C44E00F65EDE /* UIKit.framework */; };
+		5F6B141E15F4C44E00F65EDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B140B15F4C44E00F65EDE /* Foundation.framework */; };
+		5F6B142115F4C44E00F65EDE /* libCustomKeyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B140815F4C44E00F65EDE /* libCustomKeyboard.a */; };
+		5F6B142715F4C44E00F65EDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B142515F4C44E00F65EDE /* InfoPlist.strings */; };
+		5F6B142A15F4C44E00F65EDE /* CustomKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B142915F4C44E00F65EDE /* CustomKeyboardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F6B141F15F4C44E00F65EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6B13FF15F4C44E00F65EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6B140715F4C44E00F65EDE;
+			remoteInfo = CustomKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F6B140615F4C44E00F65EDE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				5F6B141115F4C44E00F65EDE /* CustomKeyboard.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F6B140815F4C44E00F65EDE /* libCustomKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCustomKeyboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6B140B15F4C44E00F65EDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F6B140F15F4C44E00F65EDE /* CustomKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		5F6B141015F4C44E00F65EDE /* CustomKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomKeyboard.h; sourceTree = "<group>"; };
+		5F6B141215F4C44E00F65EDE /* CustomKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomKeyboard.m; sourceTree = "<group>"; };
+		5F6B141915F4C44E00F65EDE /* CustomKeyboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyboardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6B141A15F4C44E00F65EDE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F6B141C15F4C44E00F65EDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F6B142415F4C44E00F65EDE /* CustomKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomKeyboardTests-Info.plist"; sourceTree = "<group>"; };
+		5F6B142615F4C44E00F65EDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F6B142815F4C44E00F65EDE /* CustomKeyboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomKeyboardTests.h; sourceTree = "<group>"; };
+		5F6B142915F4C44E00F65EDE /* CustomKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomKeyboardTests.m; sourceTree = "<group>"; };
+		5F6B143315F4C5F500F65EDE /* CustomKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomKeyboard.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6B140515F4C44E00F65EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B140C15F4C44E00F65EDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6B141515F4C44E00F65EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B141B15F4C44E00F65EDE /* SenTestingKit.framework in Frameworks */,
+				5F6B141D15F4C44E00F65EDE /* UIKit.framework in Frameworks */,
+				5F6B141E15F4C44E00F65EDE /* Foundation.framework in Frameworks */,
+				5F6B142115F4C44E00F65EDE /* libCustomKeyboard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6B13FD15F4C44E00F65EDE = {
+			isa = PBXGroup;
+			children = (
+				5F6B140D15F4C44E00F65EDE /* CustomKeyboard */,
+				5F6B142215F4C44E00F65EDE /* CustomKeyboardTests */,
+				5F6B140A15F4C44E00F65EDE /* Frameworks */,
+				5F6B140915F4C44E00F65EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6B140915F4C44E00F65EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B140815F4C44E00F65EDE /* libCustomKeyboard.a */,
+				5F6B141915F4C44E00F65EDE /* CustomKeyboardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6B140A15F4C44E00F65EDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B140B15F4C44E00F65EDE /* Foundation.framework */,
+				5F6B141A15F4C44E00F65EDE /* SenTestingKit.framework */,
+				5F6B141C15F4C44E00F65EDE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F6B140D15F4C44E00F65EDE /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B141015F4C44E00F65EDE /* CustomKeyboard.h */,
+				5F6B141215F4C44E00F65EDE /* CustomKeyboard.m */,
+				5F6B143315F4C5F500F65EDE /* CustomKeyboard.xib */,
+				5F6B140E15F4C44E00F65EDE /* Supporting Files */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+		5F6B140E15F4C44E00F65EDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B140F15F4C44E00F65EDE /* CustomKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F6B142215F4C44E00F65EDE /* CustomKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B142815F4C44E00F65EDE /* CustomKeyboardTests.h */,
+				5F6B142915F4C44E00F65EDE /* CustomKeyboardTests.m */,
+				5F6B142315F4C44E00F65EDE /* Supporting Files */,
+			);
+			path = CustomKeyboardTests;
+			sourceTree = "<group>";
+		};
+		5F6B142315F4C44E00F65EDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B142415F4C44E00F65EDE /* CustomKeyboardTests-Info.plist */,
+				5F6B142515F4C44E00F65EDE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6B140715F4C44E00F65EDE /* CustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6B142D15F4C44E00F65EDE /* Build configuration list for PBXNativeTarget "CustomKeyboard" */;
+			buildPhases = (
+				5F6B140415F4C44E00F65EDE /* Sources */,
+				5F6B140515F4C44E00F65EDE /* Frameworks */,
+				5F6B140615F4C44E00F65EDE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKeyboard;
+			productName = CustomKeyboard;
+			productReference = 5F6B140815F4C44E00F65EDE /* libCustomKeyboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5F6B141815F4C44E00F65EDE /* CustomKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6B143015F4C44E00F65EDE /* Build configuration list for PBXNativeTarget "CustomKeyboardTests" */;
+			buildPhases = (
+				5F6B141415F4C44E00F65EDE /* Sources */,
+				5F6B141515F4C44E00F65EDE /* Frameworks */,
+				5F6B141615F4C44E00F65EDE /* Resources */,
+				5F6B141715F4C44E00F65EDE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6B142015F4C44E00F65EDE /* PBXTargetDependency */,
+			);
+			name = CustomKeyboardTests;
+			productName = CustomKeyboardTests;
+			productReference = 5F6B141915F4C44E00F65EDE /* CustomKeyboardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6B13FF15F4C44E00F65EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apptivation;
+			};
+			buildConfigurationList = 5F6B140215F4C44E00F65EDE /* Build configuration list for PBXProject "CustomKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F6B13FD15F4C44E00F65EDE;
+			productRefGroup = 5F6B140915F4C44E00F65EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6B140715F4C44E00F65EDE /* CustomKeyboard */,
+				5F6B141815F4C44E00F65EDE /* CustomKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6B141615F4C44E00F65EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B142715F4C44E00F65EDE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F6B141715F4C44E00F65EDE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6B140415F4C44E00F65EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B141315F4C44E00F65EDE /* CustomKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6B141415F4C44E00F65EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B142A15F4C44E00F65EDE /* CustomKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F6B142015F4C44E00F65EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6B140715F4C44E00F65EDE /* CustomKeyboard */;
+			targetProxy = 5F6B141F15F4C44E00F65EDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F6B142515F4C44E00F65EDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6B142615F4C44E00F65EDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6B142B15F4C44E00F65EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F6B142C15F4C44E00F65EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F6B142E15F4C44E00F65EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CustomKeyboard.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomKeyboard/CustomKeyboard-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5F6B142F15F4C44E00F65EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CustomKeyboard.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomKeyboard/CustomKeyboard-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F6B143115F4C44E00F65EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomKeyboard/CustomKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "CustomKeyboardTests/CustomKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5F6B143215F4C44E00F65EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomKeyboard/CustomKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "CustomKeyboardTests/CustomKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6B140215F4C44E00F65EDE /* Build configuration list for PBXProject "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6B142B15F4C44E00F65EDE /* Debug */,
+				5F6B142C15F4C44E00F65EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6B142D15F4C44E00F65EDE /* Build configuration list for PBXNativeTarget "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6B142E15F4C44E00F65EDE /* Debug */,
+				5F6B142F15F4C44E00F65EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F6B143015F4C44E00F65EDE /* Build configuration list for PBXNativeTarget "CustomKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6B143115F4C44E00F65EDE /* Debug */,
+				5F6B143215F4C44E00F65EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6B13FF15F4C44E00F65EDE /* Project object */;
+}
